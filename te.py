@@ -1,9 +1,5 @@
 import os
 from PIL import Image
-n = 43
-
-for i in range(n) : 
-	print(i)
 
 cur_path = os.getcwd()
 path = os.path.join(cur_path, 'Train', '0')
